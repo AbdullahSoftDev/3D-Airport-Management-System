@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1291</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Airport Management System</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-80</y>
+     <width>1501</width>
+     <height>881</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-370</x>
+      <y>50</y>
+      <width>841</width>
+      <height>921</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+        background-color: rgb(85, 170, 255);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>451</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);
+font-weight:bold;
+font-size:45px;</string>
+    </property>
+    <property name="text">
+     <string>Airport Management </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>451</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+font-weight:bold;
+font-size:42px;
+background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>Passenger Dashboard</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);
+font-weight:bold;
+font-size:45px;</string>
+    </property>
+    <property name="text">
+     <string>System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>280</y>
+      <width>531</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    border: 1px solid black; /* Outline of the circle */
+    border-radius: 40px; /* Half of the width/height (80px / 2 = 40px) */
+    background-color: white; /* No fill */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>-60</y>
+      <width>521</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/Downloads/airbus.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>660</y>
+      <width>431</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: rgb(255, 255, 255); /* Initial text color: White */
+	font-weight:bold;
+    font-size: 40px;
+    border-radius: 30px;
+    background-color: rgb(85, 170, 255); /* Initial background color: Blue */
+    border: 1px solid black;
+}
+
+QPushButton:hover {
+    color: rgb(85, 170, 255); /* Text color on hover: Blue (the initial background color) */
+    background-color: rgb(255, 255, 255); /* Background color on hover: White */
+}
+
+QPushButton:pressed {
+    color: rgb(255, 255, 255); /* Initial text color: White */
+    background-color: rgb(85, 170, 255); /* Initial background color: Blue */
+}</string>
+    </property>
+    <property name="text">
+     <string> Admin Login       </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>1401</x>
+      <y>600</y>
+      <width>20</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: rgb(255, 255, 255); /* Initial text color: White */
+	font-weight:bold;
+    font-size: 40px;
+    border-radius: 30px;
+    background-color: rgb(85, 170, 255); /* Initial background color: Blue */
+    border: 1px solid black;
+}
+
+QPushButton:hover {
+    color: rgb(85, 170, 255); /* Text color on hover: Blue (the initial background color) */
+    background-color: rgb(255, 255, 255); /* Background color on hover: White */
+}
+
+QPushButton:pressed {
+    color: rgb(255, 255, 255); /* Initial text color: White */
+    background-color: rgb(85, 170, 255); /* Initial background color: Blue */
+}</string>
+    </property>
+    <property name="text">
+     <string> Flight Manager Login          </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchTicketButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>541</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 30px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Key property: This makes the corners rounded. */
+                             /* For a perfect circle, set this to half of the button's smallest dimension (width or height). */
+                             /* For example, if your button is 60x60px, border-radius: 30px; will make it a circle. */
+                             /* If it's a perfect square button, you can also use border-radius: 50%; */
+
+    /* Optional: Add a subtle box-shadow for depth, as we discussed for labels */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}</string>
+    </property>
+    <property name="text">
+     <string>Search Ticket                             </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="flightSearchButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>630</y>
+      <width>541</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	
+
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 30px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Key property: This makes the corners rounded. */
+                             /* For a perfect circle, set this to half of the button's smallest dimension (width or height). */
+                             /* For example, if your button is 60x60px, border-radius: 30px; will make it a circle. */
+                             /* If it's a perfect square button, you can also use border-radius: 50%; */
+
+    /* Optional: Add a subtle box-shadow for depth, as we discussed for labels */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}</string>
+    </property>
+    <property name="text">
+     <string>Search Flight                             </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="flightScheduleButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>550</y>
+      <width>541</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 9pt &quot;Segoe UI&quot;;
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 30px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Key property: This makes the corners rounded. */
+                             /* For a perfect circle, set this to half of the button's smallest dimension (width or height). */
+                             /* For example, if your button is 60x60px, border-radius: 30px; will make it a circle. */
+                             /* If it's a perfect square button, you can also use border-radius: 50%; */
+
+    /* Optional: Add a subtle box-shadow for depth, as we discussed for labels */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}</string>
+    </property>
+    <property name="text">
+     <string>Flight Schedule                             </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="passengerBookTicketButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>470</y>
+      <width>541</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size:30px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Key property: This makes the corners rounded. */
+                             /* For a perfect circle, set this to half of the button's smallest dimension (width or height). */
+                             /* For example, if your button is 60x60px, border-radius: 30px; will make it a circle. */
+                             /* If it's a perfect square button, you can also use border-radius: 50%; */
+
+    /* Optional: Add a subtle box-shadow for depth, as we discussed for labels */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}</string>
+    </property>
+    <property name="text">
+     <string>Book Ticket                             </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>70</y>
+      <width>1061</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>170</y>
+      <width>961</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/images/resources/an_airport_with_no_airplanes_just_atc.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>150</y>
+      <width>481</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/images/resources/airbus.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_4</zorder>
+   <zorder>searchTicketButton</zorder>
+   <zorder>flightSearchButton</zorder>
+   <zorder>flightScheduleButton</zorder>
+   <zorder>passengerBookTicketButton</zorder>
+   <zorder>label_3</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>label_8</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>label_9</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1291</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>menubar</zorder>
+  <zorder>statusbar</zorder>
+  <zorder>centralwidget</zorder>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

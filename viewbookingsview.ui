@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewBookingsView</class>
+ <widget class="QWidget" name="ViewBookingsView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>View Bookings</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignmentFlag::AlignHCenter">
+    <widget class="QLabel" name="titleLabel">
+     <property name="styleSheet">
+      <string notr="true">font-size: 20px; font-weight: bold; color: black;</string>
+     </property>
+     <property name="text">
+      <string>All Bookings</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="bookingsTableWidget">
+     <column>
+      <property name="text">
+       <string>Booking ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Flight Number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Passenger Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Contact Number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Booking Date/Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Seats Booked</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Total Fare</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashboard</class>
+ <widget class="QWidget" name="Dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1787</width>
+    <height>877</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="dashboardTitleLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>481</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:55px; 
+font-weight: bold;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Admin Dashboard</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-1390</x>
+     <y>-110</y>
+     <width>1921</width>
+     <height>1091</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(253, 88, 0);
+background-color: rgb(253, 88, 0);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewBookingsButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Rounded corners */
+    padding: 15px 30px;      /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box-shadow (note: QSS might interpret this differently than web CSS) */
+}
+
+QPushButton:hover {
+    background-color: #F8F8F8; /* Slightly off-white background on hover */
+    border: 1px solid black;   /* Black border on hover */
+    border-radius: 30px;       /* Keep border-radius same to maintain circular shape */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; /* Darker background when pressed */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>View Bookings</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manageFlightsButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>330</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Rounded corners */
+    padding: 15px 30px;      /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box-shadow (note: QSS might interpret this differently than web CSS) */
+}
+
+QPushButton:hover {
+    background-color: #F8F8F8; /* Slightly off-white background on hover */
+    border: 1px solid black;   /* Black border on hover */
+    border-radius: 30px;       /* Keep border-radius same to maintain circular shape */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; /* Darker background when pressed */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>Manage Flights </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manageUsersButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>410</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Rounded corners */
+    padding: 15px 30px;      /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box-shadow (note: QSS might interpret this differently than web CSS) */
+}
+
+QPushButton:hover {
+    background-color: #F8F8F8; /* Slightly off-white background on hover */
+    border: 1px solid black;   /* Black border on hover */
+    border-radius: 30px;       /* Keep border-radius same to maintain circular shape */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; /* Darker background when pressed */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>Manage Users</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manageBookingsButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Rounded corners */
+    padding: 15px 30px;      /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box-shadow (note: QSS might interpret this differently than web CSS) */
+}
+
+QPushButton:hover {
+    background-color: #F8F8F8; /* Slightly off-white background on hover */
+    border: 1px solid black;   /* Black border on hover */
+    border-radius: 30px;       /* Keep border-radius same to maintain circular shape */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; /* Darker background when pressed */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>Manage Bookings </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reportsButton">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>630</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Key property: This makes the corners rounded. */
+                             /* For a perfect circle, set this to half of the button's smallest dimension (width or height). */
+                             /* For example, if your button is 60x60px, border-radius: 30px; will make it a circle. */
+                             /* If it's a perfect square button, you can also use border-radius: 50%; */
+
+    /* Optional: Add a subtle box-shadow for depth, as we discussed for labels */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}</string>
+   </property>
+   <property name="text">
+    <string>Reports</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logoutButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>490</y>
+     <width>551</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;            /* Text color */
+    border: 1px solid #ccc;  /* Border style */
+    font-size: 24px;         /* Font size */
+    background-color: white; /* Background color of the button */
+    font-weight: bold;       /* Bold font */
+    border-radius: 30px;     /* Rounded corners */
+    padding: 15px 30px;      /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box-shadow (note: QSS might interpret this differently than web CSS) */
+}
+
+QPushButton:hover {
+    background-color: #F8F8F8; /* Slightly off-white background on hover */
+    border: 1px solid black;   /* Black border on hover */
+    border-radius: 30px;       /* Keep border-radius same to maintain circular shape */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow on hover */
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; /* Darker background when pressed */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>Logout </string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>40</y>
+     <width>751</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="defaultPage">
+    <layout class="QVBoxLayout" name="defaultPageLayout">
+     <item>
+      <spacer name="verticalSpacer_default_top">
+       <property name="orientation">
+        <enum>Qt::Orientation::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="welcomeLabel">
+       <property name="styleSheet">
+        <string notr="true">font-size: 40px;
+font-weight: bold; 
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>   Welcome to Admin Dashboard!  </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_default_bottom">
+       <property name="orientation">
+        <enum>Qt::Orientation::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>60</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>-40</y>
+     <width>1401</width>
+     <height>841</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+background-color:white;
+border: 1px solid black;  </string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>580</y>
+     <width>401</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: rgb(0, 0, 0); /* Initial text color: White */
+    font-size: 40px;
+    border-radius: 30px;
+	background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+QPushButton:hover {
+    color: rgb(85, 170, 255); /* Text color on hover: Blue (the initial background color) */
+    background-color: rgb(255, 255, 255); /* Background color on hover: White */
+}
+
+QPushButton:pressed {
+    color: rgb(255, 255, 255); /* Initial text color: White */
+    background-color: rgb(85, 170, 255); /* Initial background color: Blue */
+}</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <zorder>pushButton_8</zorder>
+  <zorder>label</zorder>
+  <zorder>dashboardTitleLabel</zorder>
+  <zorder>viewBookingsButton</zorder>
+  <zorder>manageFlightsButton</zorder>
+  <zorder>manageUsersButton</zorder>
+  <zorder>manageBookingsButton</zorder>
+  <zorder>logoutButton</zorder>
+  <zorder>reportsButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>stackedWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

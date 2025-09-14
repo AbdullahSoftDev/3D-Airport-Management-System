@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resources/airbus.png</file>
+        <file>resources/an_airport_with_no_airplanes_just_atc.jpeg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

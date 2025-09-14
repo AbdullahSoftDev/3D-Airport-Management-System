@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageFlightsView</class>
+ <widget class="QWidget" name="ManageFlightsView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Manage Flights</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item alignment="Qt::AlignmentFlag::AlignHCenter">
+    <widget class="QLabel" name="titleLabel">
+     <property name="styleSheet">
+      <string notr="true">font-size: 20px; font-weight: bold; color: black;</string>
+     </property>
+     <property name="text">
+      <string>Manage Flight Schedules</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="flightsTableWidget">
+     <column>
+      <property name="text">
+       <string>Flight Number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Origin</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Destination</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Departure Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Departure Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Arrival Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Arrival Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Available Seats</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Fare</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_left">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addFlightButton">
+       <property name="text">
+        <string>Add Flight</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editFlightButton">
+       <property name="text">
+        <string>Edit Flight</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteFlightButton">
+       <property name="text">
+        <string>Delete Flight</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_right">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
